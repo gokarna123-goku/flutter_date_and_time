@@ -1,0 +1,5 @@
+Include this packages in your pubspec.yaml file (inside dependencies)
+  
+  intl: ^0.18.0
+  motion_toast: ^2.6.4
+  
