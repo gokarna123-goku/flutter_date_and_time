@@ -5,7 +5,11 @@ A new Flutter project.
 ## Getting Started
 
 # Date Time Picker Package
-https://pub.dev/packages/intl
+https://pub.dev/packages/intl/install
+
+
+# Motion Toast Package 
+https://pub.dev/packages/motion_toast/install
 
 This project is a starting point for a Flutter application.
 
