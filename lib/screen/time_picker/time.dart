@@ -25,6 +25,17 @@ class _TimePickerScreenState extends State<TimePickerScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: background,
+      appBar: AppBar(
+        backgroundColor: background,
+        elevation: 10,
+        title: Text(
+          "Time Picker Page",
+          textAlign: TextAlign.center,
+          style: TextStyle(
+              color: tertiary, fontSize: 19.5, fontWeight: FontWeight.w500),
+        ),
+        iconTheme: IconThemeData(color: tertiary),
+      ),
       body: SafeArea(
         child: Center(
           child: Column(

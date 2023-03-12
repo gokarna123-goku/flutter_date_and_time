@@ -1,3 +1,4 @@
+import 'package:data_time_picker/screen/date_picker/date.dart';
 import 'package:data_time_picker/screen/time_picker/time.dart';
 import "package:flutter/material.dart";
 import 'package:data_time_picker/constant/color.dart';
@@ -60,11 +61,11 @@ class _DateTimeButtonPageState extends State<DateTimeButtonPage> {
                         backgroundColor: cardBg,
                         shadowColor: tertiary),
                     onPressed: () {
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //       builder: (context) => ReserveSlotPage()),
-                      // );
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DatePickerScreen()),
+                      );
                     },
                     child: Text(
                       "Date Picker",
