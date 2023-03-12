@@ -1,3 +1,4 @@
+import 'package:data_time_picker/screen/time_picker/time.dart';
 import "package:flutter/material.dart";
 import 'package:data_time_picker/constant/color.dart';
 
@@ -32,7 +33,13 @@ class _DateTimeButtonPageState extends State<DateTimeButtonPage> {
                         foregroundColor: secondary,
                         backgroundColor: cardBg,
                         shadowColor: tertiary),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => TimePickerScreen()),
+                      );
+                    },
                     child: Text(
                       "Time Picker",
                       style: TextStyle(
